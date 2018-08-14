@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"  tools:context="saveourcar.soc.MainActivity">
+
+    <item
+        android:id="@+id/action_shared"
+        android:title="sherd pref"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_file"
+        android:title="file IO"
+        android:orderInCategory="1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_sql"
+        android:title="sql lite"
+        android:orderInCategory="0"
+        app:showAsAction="always" />
+</menu>
